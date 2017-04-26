@@ -1,25 +1,5 @@
-ioQuake3 engine for urban terror 4.x source ( https://github.com/danielepantaleone/ioq3-UrT ) 
-=============================================================================================
-
-### *Linux*
-
-* Open a terminal window and change to the directory containing this readme
-* Install necessary libraries: 
-    - `sudo apt-get install build-essential libsdl1.2-dev libxxf86vm-dev`
-    - `sudo apt-get install libc6-dev-i386 libxxf86vm-dev mesa-common-dev`
-* Switch to the `scripts` directory
-* Run either `make-x86.sh` or `make-x86_64.sh`
-
-### *Windows (cross-compile)*
-
-* Open a terminal window and change to the directory containing this readme
-* Install necessary libraries:
-    - `sudo apt-get install libsdl1.2-dev libxxf86vm-dev libc6-dev-i386`
-    - `sudo apt-get install mingw-w64 gcc-mingw-w64-base gcc-mingw-w64 binutils-mingw-w64`
-* Switch to the `scripts` directory
-* Run `make-mingw32.sh`
-
-## Addons & Improvements
+ioQuake3 engine for urban terror 4.x
+=====================================
 
 ### *Server*
     
@@ -73,3 +53,7 @@ ioQuake3 engine for urban terror 4.x source ( https://github.com/danielepantaleo
 * `cl_demoBlink` - make the demo recording string flashing when recording a demo
 * `cl_chatArrow` - remove the **>** prefix from every chat message if set to zero
 * `cl_drawSpree` - draw the current spree in the hud
+
+## Source
+
+* [danielepantaleone](https://github.com/danielepantaleone/ioq3-UrT) 
