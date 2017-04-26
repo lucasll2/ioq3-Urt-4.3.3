@@ -20,7 +20,7 @@ ioQuake3 engine for urban terror 4.x
 * Replaced auth ban message with something understandable
 * Unlocked `sv_fps` cvar from game module constraint
 * Use of the new pure list system by default: removes compatibility with Q3A clients
-* Added 'Color' PossSaving and LoadPossSaving
+* Added `Color` PossSaving and LoadPossSaving
 
 ### *Client*
 
